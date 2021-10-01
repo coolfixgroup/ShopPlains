@@ -3,6 +3,7 @@
 buildscript {
     repositories {
         jcenter()
+        google()
         maven {
             url "http://mvn.leancloud.cn/nexus/content/repositories/releases"
         }
@@ -20,6 +21,7 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
+        google()
         maven {
             url "http://mvn.leancloud.cn/nexus/content/repositories/releases"
         }
